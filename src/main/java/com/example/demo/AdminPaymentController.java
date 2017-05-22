@@ -15,4 +15,9 @@ public class AdminPaymentController  {
     public String updatePaymentStatus(@RequestParam("id") Payment payment) {
         return null;
     }
+
+    @RequestMapping(value = "updatePaymentStatusWLong", method = RequestMethod.PUT)
+    public String updatePaymentStatusWLong(@RequestParam("id") Long payment) {
+        return null;
+    }
 }
